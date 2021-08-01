@@ -1,0 +1,24 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "indent": [true, "spaces", 2],
+    "useTabs": true,
+    "semicolon": [true, "always"],
+    "no-console": [false],
+    "quotemark": [true, "single"],
+    "whitespace": [true, "check-module"],
+    "no-useless-computed-key": true,
+    "instance-sandwich": false
+  },
+  "rulesDirectory": [
+    "./src"
+  ],
+  "severity": "warning"
+}

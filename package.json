@@ -1,0 +1,24 @@
+{
+  "name": "microservice for adding files on server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "realtime": "ts-node-dev --respawn ./src/index.ts --transpileOnly",
+    "lint": "tslint tslint.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ts-node": "^10.1.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.5"
+  }
+}
