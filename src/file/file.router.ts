@@ -1,7 +1,7 @@
 import express, { Router } from 'express';
 
-import { addFile, getFilesInfo, isAdmin } from './file.controller';
-import { upload } from './file.middleware';
+import { addFile, getFilesInfo } from './file.controller';
+import { isAdmin, upload } from './file.middleware';
 
 const fileRoutes: Router = express.Router();
 
